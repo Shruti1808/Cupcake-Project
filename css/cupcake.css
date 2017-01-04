@@ -52,7 +52,7 @@ img{
 #right{
   float: right;
 }
-.fancy{
+.flashy{
   background-color: white;
   margin: 50px;
   font-size: 20px;
@@ -60,4 +60,9 @@ img{
   color: #35ACB8;
   font-style: italic;
   padding: 20px;
+}
+
+.comments{
+
+
 }

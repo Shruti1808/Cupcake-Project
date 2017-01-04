@@ -5,7 +5,13 @@
     <title>Cup Cake Life</title>
   </head>
   <body>
-    <h1>Welcome to Cup Cake Life!</h1>
+
+    <div class="header">
+          <img id="left" src="img/logo.png" alt="logo of cupcake shop">
+          <h1 class="welcome">Welcome to Cup Cake Life!</h1>
+          <img id="right" src="img/logo.png" alt="logo of cupcake shop">
+    </div>
+
     <div id="navbar">
       <ul>
         <li><a href="orders.html">Order</a></li>
@@ -17,6 +23,18 @@
       </ul>
     </div>
 
+    <div class="flashy">
+      <form class="comments" action="index.html">
+        <input type="text" name="name" value="Name">
+        <input type="tel" name="number" value="Number">
+      </form>
+      <form class="comments" action="index.html" method="post">
+        <input type="text" name="comments" value="comments">
+      </form>
+      <form id="comments" action="index.html" method="post">
+        <input type="button" name="submit" value="Submit">
+      </form>
+    </div>
 
   </body>
 </html>
